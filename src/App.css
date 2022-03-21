@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  background-color: white;
+  animation-name: anime;
+  animation-duration: 1.3s;
+  height:655px;
+  
+ 
+}
+
+.App2{
+  text-align: center;
+  background-color: black;
+  height:655px;
+  animation-name: anim;
+  animation-duration: 1.3s;
+}
+
+.btn1{
+  border:2px solid rgb(0, 243, 109);
+  background-color: black;
+  color:white;
+  border-radius: 8px;
+ 
+}
+
+.btn2{
+  border:2px solid rgb(126, 245, 14);
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 8px;
+
+}
+
+@keyframes anim {
+  from{
+    transform: rotateX(0deg);
+  }
+  75%{
+    background-color: white;
+  }
+to{
+  transform: rotateX(360deg);
+}
+  
+}
+
+
+@keyframes anime {
+  from{
+    transform: rotateX(0deg);
+    background-color: white;
+  }
+75%{
+  background-color: black;
+}
+to{
+  transform: rotateX(360deg);
+  
+}
+  
+}
